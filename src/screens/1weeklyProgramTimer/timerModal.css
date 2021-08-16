@@ -1,0 +1,42 @@
+.timerModal {
+  text-align: center;
+}
+
+.timerModal .modal-content {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.timerModal .modalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.timerModal .modalContent .timerContainer {
+  box-shadow: 0 22px 144px 0 rgba(0, 0, 0, 0.5);
+  background-color: #2d2d2d;
+  color: #fff;
+  border-radius: 20px;
+  padding: 44px 41px 42px;
+  margin-bottom: 20px;
+}
+
+.timerContainer h1 {
+  direction: rtl;
+}
+
+.ft-btns {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.timerModal .modalContent button {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .timerModal .modal-content {
+    padding: 2px;
+  }
+}

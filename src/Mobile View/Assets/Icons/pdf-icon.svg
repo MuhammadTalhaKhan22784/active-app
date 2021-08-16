@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-178.000000, -892.000000) translate(162.000000, 880.000000) translate(16.000000, 12.000000)">
+                    <rect width="16" height="16" fill="#ED3939" rx="1"/>
+                    <text fill="#FFF" font-family="Rubik-Medium, Rubik" font-size="7" font-weight="400" letter-spacing="0">
+                        <tspan x="1.14" y="11">PDF</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

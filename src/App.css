@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Rubik", sans-serif !important;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  button {
+    outline: none;
+  }
+
+  .bg-blue {
+    background-color: #0400b1;
+  }
+
+  .bg-white {
+    background-color: white;
+  }
+
+  .bg-light {
+    background-color: #f5f7fb;
+  }
+
+  .bg-light-blue {
+    background-color: #e8edf8;
+  }
+
+  .bg-light-red {
+    background-color: #fd7172;
+  }
+
+  .bg-lightgray {
+    background-color: #f5f5f5 !important;
+  }
+
+  .bg-bluegreen {
+    background-color: #43e4ff;
+  }
+
+  .bg-purple {
+    background-color: #716eff;
+  }
+
+  .bg-transparent {
+    background-color: transparent;
+  }
+
+  .bg-gray {
+    background-color: #c9c9c9;
+  }
+
+  .bg-lightgreen {
+    background-color: #21cec1;
+  }
+
+  .bg-linearlightgreen {
+    background-image: linear-gradient(101deg, #43e4ff -28%, #716eff 31%);
+  }
+  /* borders */
+
+  .lightgreen-bottom-border {
+    border-bottom: solid 1px #43e4ff;
+  }
+
+  .blue-bottom-border {
+    border-bottom: solid 1px #0400b1;
+  }
+
+  .lightpurple-border {
+    border: solid 1px #716eff;
+  }
+
+  .gray-border {
+    border-color: #c9c9c9 !important;
+  }
+
+  .no-border {
+    border: none;
+  }
+
+  /* text color */
+
+  .text-blue {
+    color: #0400b1;
+  }
+
+  .text-gray {
+    color: #c9c9c9 !important;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .text-bluegreen {
+    color: #43e4ff;
+  }
+
+  .text-lightpurple {
+    color: #716eff;
+  }
+
+  /* border radius */
+
+  .border-radius-26 {
+    border-radius: 26px;
+  }
+
+  /* padding */
+
+  .padding-15 {
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  * {
+    direction: ltr;
+  }
+}
+/* @media screen and (min-width: 769px) {
+  .mob-view {
+    display: none;
+  }
+} */

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="108px" viewBox="0 0 89 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>13D0824B-AA73-4740-96FF-4059809D1D49</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Personal-Area-New" transform="translate(-829.000000, -276.000000)" stroke="#716EFF" stroke-width="3">
+            <g id="Group-4-Copy" transform="translate(784.000000, 238.000000)">
+                <g id="Group-3" transform="translate(47.000000, 39.693992)">
+                    <line x1="9.83288738" y1="12.4888193" x2="34.3642286" y2="12.4888193" id="Stroke-1"></line>
+                    <line x1="9.83288738" y1="22.1828111" x2="59.3656095" y2="22.1828111" id="Stroke-2"></line>
+                    <line x1="9.83288738" y1="31.8760158" x2="59.3656095" y2="31.8760158" id="Stroke-3"></line>
+                    <line x1="9.83288738" y1="41.5700076" x2="59.3656095" y2="41.5700076" id="Stroke-4"></line>
+                    <line x1="9.83288738" y1="51.2639995" x2="59.3656095" y2="51.2639995" id="Stroke-5"></line>
+                    <line x1="9.83288738" y1="60.9579913" x2="59.3656095" y2="60.9579913" id="Stroke-6"></line>
+                    <line x1="9.83288738" y1="70.651852" x2="54.5" y2="70.8060082" id="Stroke-7"></line>
+                    <polyline id="Stroke-14" points="51 96.3060082 0 96.5607498 0 0 72.2941935 0 72 68.3060082"></polyline>
+                    <polygon id="Path" fill="#CCCBFF" points="58 82.640398 63.3343899 82.640398 63.3343899 77.3060082 69.6656101 77.3060082 69.6656101 82.640398 75 82.640398 75 88.9743124 69.6656101 88.9743124 69.6656101 94.3060082 63.3343899 94.3060082 63.3343899 88.9743124 58 88.9743124"></polygon>
+                    <path d="M85,85.8046399 C85,75.5893452 76.7193995,67.3060082 66.5013682,67.3060082 C56.283337,67.3060082 48,75.5893452 48,85.8046399 C48,96.0226711 56.283337,104.306008 66.5013682,104.306008 C76.7193995,104.306008 85,96.0226711 85,85.8046399 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

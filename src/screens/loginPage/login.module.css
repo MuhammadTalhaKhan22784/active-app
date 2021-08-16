@@ -1,0 +1,155 @@
+.nav-bar-container {
+  display: none !important;
+}
+
+/***********************************
+
+Buttons .css
+
+********************************/
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  padding: 12px;
+}
+
+button.reddish {
+  background-color: #fd7172;
+  color: #fff;
+}
+
+button.normal {
+  background-color: #fff;
+  color: #716eff;
+  border: solid 1px #716eff;
+}
+
+button.disabled {
+  background-color: #fff;
+  border: solid 1px #d8d8d8;
+  color: #d8d8d8;
+}
+
+button.gradient {
+  background: linear-gradient(109deg, #43e4ff -27%, #716eff 33%);
+  color: #fff;
+}
+
+.mainContainer {
+  background-image: url('../../assets/images/bg-login.png');
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  direction: ltr;
+  color: #0400b1;
+  display: flex;
+  align-items: center;
+}
+
+.loginBoxContainer {
+  width: 30%;
+  background-color: #fff;
+  padding: 40px;
+  min-width: 450px;
+  max-width: 550px;
+  direction: rtl;
+  border-radius: 40px;
+  margin-left: 10%;
+  margin-bottom: 3%;
+}
+
+.loginBoxContainer h1 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.loginBoxContainer p {
+  margin-bottom: 25px;
+}
+
+.mainContainer input {
+  color: #979797;
+  border: solid 1px #dcdcdc;
+  padding: 12px;
+  outline: 0;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+.checkBoxContainer {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.emptyCheckBox span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 1px #c9c9c9;
+}
+
+.loginBoxContainer label {
+  display: flex;
+  color: #979797;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.loginBoxContainer button.gradient {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginBoxContainer .sign-up {
+  text-align: center;
+  width: 100%;
+}
+.loginBoxContainer .sign-up a {
+  color: #979797;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .loginBoxContainer {
+    width: 30%;
+    padding: 40px;
+    min-width: 350px;
+    max-width: 450px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
+
+  .loginBoxContainer h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainContainer {
+    background-image: url('../../assets/images/bg-loginMobile.png');
+    align-items: flex-end;
+    background-position: top;
+  }
+  .loginBoxContainer {
+    width: 90%;
+    padding: 20px;
+    min-width: unset;
+    max-width: unset;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}

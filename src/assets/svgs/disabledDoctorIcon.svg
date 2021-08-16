@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="128px" viewBox="0 0 109 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AF4C1732-8872-4242-92AF-EDB07E9AC534</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.788235 0 0 0 0 0.788235 0 0 0 0 0.788235 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Personal-Area-try" transform="translate(-999.000000, -262.000000)">
+            <g id="Group-4" transform="translate(970.000000, 238.000000)">
+                <g id="Group-29" transform="translate(29.000000, 24.000000)" filter="url(#filter-1)">
+                    <g>
+                        <path d="M90.2534,89.88 L90.2534,35.867 C90.2534,16.058 74.1944,0 54.3864,0 C34.5774,0 18.5194,16.058 18.5194,35.867 L18.5194,89.88" id="Stroke-1" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M18.519,35.8673 C18.519,35.8673 45.228,35.6973 58.965,26.9213 C59.346,27.3033 76.898,35.8673 90.253,35.8673" id="Stroke-3" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M78.8061,35.2062 L78.8061,50.1912 C78.8061,63.8922 67.7001,74.9992 53.9981,74.9992 C40.2981,74.9992 29.1911,63.8922 29.1911,50.1912 L29.1911,35.2062" id="Stroke-5" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M47.5385,44.9396 C44.9025,42.3036 40.6355,42.3036 37.9995,44.9396" id="Stroke-7" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M46.2754,61.0275 C50.5444,65.2965 57.4534,65.2965 61.7214,61.0275" id="Stroke-9" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M70.6743,44.9396 C68.0383,42.3036 63.7713,42.3036 61.1353,44.9396" id="Stroke-11" stroke="#716EFF" stroke-width="3"></path>
+                        <polyline id="Stroke-13" stroke="#716EFF" stroke-width="3" points="0 128.0001 6.833 93.7451 42.769 81.2861 42.769 128.0001"></polyline>
+                        <polyline id="Stroke-15" stroke="#716EFF" stroke-width="3" points="108.7719 128.0001 101.9389 93.7451 66.0029 81.2861 66.0029 128.0001"></polyline>
+                        <path d="M66.0034,71.9015 L66.0034,83.2865 C66.0034,89.7025 60.8024,94.9035 54.3864,94.9035 C47.9704,94.9035 42.7694,89.7025 42.7694,83.2865 L42.7694,72.3095" id="Stroke-17" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M18.519,115.048 L13.665,115.048 L13.665,113.103 C13.665,108.431 17.453,104.643 22.125,104.643 L22.508,104.643" id="Stroke-19" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M42.769,81.2863 L30.522,88.0883 C25.576,90.8363 22.508,96.0493 22.508,101.7083 L22.508,104.6423 C22.508,104.6423 31.351,104.6423 31.351,113.1023 L31.351,115.0483 L26.497,115.0483" id="Stroke-21" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M66.0034,81.2863 L78.2494,88.0883 C83.1954,90.8363 86.2644,96.0493 86.2644,101.7083 L86.2644,104.2693" id="Stroke-23" stroke="#716EFF" stroke-width="3"></path>
+                        <path d="M91.8403,109.8458 C91.8403,106.7658 89.3433,104.2698 86.2643,104.2698 C83.1843,104.2698 80.6883,106.7658 80.6883,109.8458 C80.6883,112.9248 83.1843,115.4208 86.2643,115.4208 C89.3433,115.4208 91.8403,112.9248 91.8403,109.8458 Z" id="Stroke-25" stroke="#716EFF" stroke-width="3" fill-opacity="0.501497282" fill="#CCCBFF"></path>
+                        <path d="M52.3086,56.5177 C52.3086,56.5177 54.1116,57.1377 55.6886,56.5177" id="Stroke-27" stroke="#716EFF" stroke-width="3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

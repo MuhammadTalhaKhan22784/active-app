@@ -1,0 +1,82 @@
+.select-ynq .afterYesChoice {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.select-mcq-container {
+  border: solid 1px #0400b1 !important;
+  border-radius: 20px !important;
+  /* box-shadow: 0 0 0 1px #000; */
+  font-weight: bold !important;
+  text-align: right !important;
+  padding: 2px 5px !important;
+}
+
+.select-mcq__single-value {
+  color: #0400b1 !important;
+  overflow: visible !important;
+  position: relative !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+  top: unset !important;
+  -webkit-transform: none !important;
+  -moz-transform: unset !important;
+  -ms-transform: unset !important;
+  transform: none !important;
+  box-sizing: border-box !important;
+}
+
+.select-mcq__option {
+  font-size: 0.85em !important;
+}
+
+.select-mcq__menu {
+  margin: 0px !important;
+  padding: 0px !important;
+  position: relative !important;
+}
+
+.select-mcq__menu-list::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+.select-mcq__menu-list::-webkit-scrollbar-track {
+  border-radius: 100px !important;
+}
+
+.select-mcq__menu-list::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9 !important;
+  border-radius: 100px !important;
+}
+
+.select-mcq__indicators,
+.select-mcq__control,
+.select-mcq__menu {
+  background-color: transparent !important;
+}
+
+.select-mcq__menu,
+.select-mcq__control {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.select-mcq__value-container input {
+  height: 0px !important;
+  width: 0px !important;
+  padding: 9px !important;
+}
+
+.select-mcq__value-container {
+  flex-wrap: nowrap !important;
+}
+
+.select-mcq-container.select-mcq--is-disabled {
+  border: solid 1px #c9c9c9 !important;
+  color: #c9c9c9 !important;
+}
+
+.select-mcq__single-value.select-mcq__single-value--is-disabled {
+  color: #c9c9c9 !important;
+}

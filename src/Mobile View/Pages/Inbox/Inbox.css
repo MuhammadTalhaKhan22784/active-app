@@ -1,0 +1,122 @@
+@media screen and (max-width: 768px) {
+  .ibox-1 {
+    width: 100%;
+    background-color: #f5f5f5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px 12px;
+    color: #0400b1;
+  }
+
+  .ibox-1 strong {
+    font-size: 2rem;
+  }
+
+  .ibox-1 span {
+    font-size: 1.2rem;
+  }
+
+  .ibox-2 {
+    width: 100%;
+    padding: 44px 20px;
+    background: #0400b1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .ibox-2 > div {
+    border-radius: 10px;
+    background: #cccbff;
+    color: #716eff;
+    font-size: 0.9rem;
+    padding: 2px 10px;
+    margin-right: 10px;
+    font-weight: 600;
+  }
+
+  .ibox-2 span {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .ibox-3 {
+    padding: 11px 0px;
+    width: 100%;
+    border: solid 1px #c9c9c9;
+    border-top: none;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .ibox-3 span,
+  .ibox-3 strong {
+    color: #0400b1;
+    font-size: 1.2rem;
+    text-align: end;
+  }
+
+  .ibox3-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .ibox3-1 img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .green-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2px 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ibox-2 span{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .ibox-1 strong {
+    font-size: 1.5rem;
+  }
+}

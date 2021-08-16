@@ -1,0 +1,195 @@
+.mainWrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #0400b1;
+  background-color: #f5f5f5;
+  padding: 0px 100px 100px 100px;
+}
+
+.inboxContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-bottom: 30px;
+}
+
+.rightSide {
+  flex: 75%;
+}
+
+.rightSide > main {
+  display: flex;
+}
+
+.leftSide {
+  margin-right: 50px;
+}
+
+.messagesContainer {
+  width: 33%;
+}
+
+.messageContainer {
+  width: 60%;
+}
+
+/********************************
+
+Header CSS
+
+*********************************/
+
+.messageAndSelectContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.disabled {
+  color: #ababab;
+}
+
+/***********************************
+
+Buttons .css
+
+********************************/
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  padding: 12px;
+}
+
+button.reddish {
+  background-color: #fd7172;
+  color: #fff;
+}
+
+button.normal {
+  background-color: #fff;
+  color: #716eff;
+  border: solid 1px #716eff;
+}
+
+button.disabled {
+  background-color: #fff;
+  border: solid 1px #d8d8d8;
+  color: #d8d8d8;
+}
+
+button.gradient {
+  background: linear-gradient(109deg, #43e4ff -27%, #716eff 33%);
+  color: #fff;
+}
+
+.openedMessage footer p {
+  margin-bottom: 5px;
+}
+
+.openedMessage footer button {
+  width: auto;
+  float: unset;
+}
+
+.openedMessage footer button div.wordIcon {
+  display: inline-block;
+  background-color: #ed3939;
+  color: #fff;
+  min-height: 16px;
+  min-width: 16px;
+  font-size: 10px;
+  line-height: 1.8;
+  border-radius: 4px;
+}
+
+.openedMessage footer button div.pdfIcon {
+  display: inline-block;
+  background-color: #3973ed;
+  color: #fff;
+  min-width: 16px;
+  min-height: 16px;
+  font-size: 7px;
+  line-height: 2.5;
+  border-radius: 4px;
+}
+
+/* .option-buttons button {
+  width: 150px;
+} */
+
+/* 
+
+
+
+
+
+
+
+
+
+ */
+
+textarea {
+  resize: none;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  color: #0400b1;
+}
+
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 100px;
+}
+
+.mainWrapper footer {
+  border-top: solid 1px #c9c9c9;
+  padding-top: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px 30px 50px;
+  border-bottom: solid 1px #c9c9c9;
+  margin-bottom: 20px;
+}
+
+.openedMessage header p small span {
+  float: left;
+}
+.openedMessage main p {
+  padding: 10px 0px;
+}
+
+.openedMessage {
+  padding-left: 50px;
+}
+.openedMessage main {
+  margin-bottom: 150px;
+}
+
+.updatesAndGuides {
+  padding-left: 0px !important;
+}
+
+.mainWrapper footer button {
+  margin-left: 10px;
+}

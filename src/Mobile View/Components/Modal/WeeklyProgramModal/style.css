@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  .wp-modal .modal-content {
+    border-radius: 29px;
+    background-color: #fd7172 !important;
+    padding-bottom: 3px;
+  }
+
+  .wpm-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wpm-header img {
+    border-radius: 100%;
+  }
+
+  .wpm-header {
+    border: none !important;
+  }
+
+  .wpm-header .modal-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wpm-header strong {
+    color: white;
+  }
+
+  .wpm-header .modal-title span {
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: 300;
+    direction: rtl;
+  }
+
+  .wp-modal .modal-body {
+    width: 98%;
+    margin: 0 auto;
+    background: white;
+    padding: 0;
+  }
+
+  .wp-modal .modal-body span,
+  .wp-modal .modal-body strong {
+    font-size: 1.2rem;
+  }
+
+  .wp-modal .modal-body .wp-4 {
+    margin-top: 0rem;
+  }
+
+  .wpm-3 > strong {
+    font-size: 2rem !important;
+  }
+
+  .wpm-3 p {
+    margin: 5px 0;
+  }
+
+  .wp-modal .modal-footer {
+    background-color: white;
+    width: 98%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0 0 29px 29px;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,546 @@
+.mainWrapper {
+  color: #0400b1;
+  background-color: #f5f5f5;
+  padding: 0px 100px 100px 100px;
+}
+
+.mainContainer {
+  display: flex;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.rightSide {
+  flex: 40%;
+  max-width: 300px;
+  border-left: solid 2px #f5f5f5;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 80%;
+  margin-right: 50px;
+}
+
+.footerSubmitAndBackButton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footerSubmitAndBackButton button {
+  width: 150px;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+/********************************
+
+Header CSS
+
+*********************************/
+
+.messageAndSelectContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.messageAndSelectContainer .message {
+  width: 40%;
+}
+
+.errorMessageAndSelect {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.headerErrorMessage {
+  border: solid 1px #fd7172;
+  border-radius: 50px;
+  color: #fd7172;
+  max-width: 550px;
+  margin-left: 50px;
+}
+
+.headerErrorMessage p {
+  padding: 0 20px;
+}
+
+/********************************
+  Statistics Styles
+  ******************************/
+.statisticsContainer {
+  margin: 5px;
+  width: 50%;
+}
+
+.backgroundWhite {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.statisticsHeader {
+  padding: 10px 20px 0px 20px;
+  font-weight: bold;
+}
+
+.statistics {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.progressInfo {
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+}
+
+.progressInfo .img {
+  margin: 10px;
+}
+
+.statisticsBreif {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progressInfo .img img {
+  width: 90%;
+  min-width: 60px;
+}
+
+.disabled {
+  color: #ababab;
+}
+
+.exercisesNames {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercisesNames p {
+  padding: 10px;
+  border-bottom: 1px solid #cccbff;
+}
+
+.exercisesNames p:first-child {
+  border-top: 1px solid #cccbff;
+}
+
+.exercisesNames p.not-completed {
+  color: #cccbff;
+}
+
+.timer {
+  padding: 30px;
+  border-bottom: solid 2px #f5f5f5;
+}
+
+/***************************************
+  Question Numbers.css
+  *************************************/
+.questionNumbersAndBrief {
+}
+
+.questionNumbersContainer {
+}
+
+.questionNumber {
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #b0b0b0;
+  color: #b0b0b0;
+  font-size: 26px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+
+.questionNumbers {
+  padding-bottom: 20px;
+  border-bottom: solid 2px #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.questionNumber:last-child {
+  margin-right: 0px !important;
+}
+.questionNumber h3 {
+  line-height: 1.8;
+  display: inline-block;
+}
+
+.questionNumber::after {
+  display: block;
+  content: '';
+  position: relative;
+  top: -27px;
+  left: 100%;
+  width: 60px;
+  border-top: 2px solid #b0b0b0;
+}
+
+.questionNumber.completed {
+  border: 1px solid #716eff;
+  background-color: #cccbff;
+  color: #716eff;
+}
+.questionNumber.completed::after {
+  /* border-top: 2px solid #c9c9c9; */
+  border: 1px solid #0400b1;
+
+}
+
+.questionNumber.active {
+  border: 1px solid #0400b1;
+  background-color: #716eff;
+  color: #fff;
+}
+
+.questionNumber.active::after {
+  border-top: 2px solid #0400b1;
+}
+
+.questionNumber.next::after {
+  border-top: 2px solid #b0b0b0;
+}
+
+.questionNumber:last-child:after {
+  width: 0 !important;
+}
+
+.timer h1 {
+  padding: 10px 0px;
+  background-color: #cccbff;
+  border-radius: 10px;
+}
+
+/***********************************
+
+Buttons .css
+
+********************************/
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  padding: 12px;
+}
+
+button.reddish {
+  background-color: #fd7172;
+  color: #fff;
+}
+
+button.normal {
+  background-color: #fff;
+  color: #716eff;
+  border: solid 1px #716eff;
+}
+
+button.disabled {
+  background-color: #fff;
+  border: solid 1px #d8d8d8;
+  color: #d8d8d8;
+}
+
+button.gradient {
+  background: linear-gradient(109deg, #43e4ff -27%, #716eff 33%);
+  color: #fff;
+}
+footer {
+  padding-top: 20px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+ */
+
+hr {
+  margin: 20px 0px;
+  height: 1px;
+  border: none;
+}
+
+.exerciseDesc main hr {
+  background-color: #fd7172;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.rightSide article {
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+.statisticsContainer {
+  width: auto !important;
+  border-radius: 0 !important;
+}
+
+.exerciseDesc {
+  color: #fd7172;
+  height: 240px;
+  overflow-y: scroll;
+}
+
+.exerciseDesc::-webkit-scrollbar {
+  width: 8px;
+}
+
+.exerciseDesc::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+
+.exerciseDesc::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 100px;
+}
+
+.rowHeader {
+  font-weight: bold;
+}
+
+.metricsAnswers .rowHeader {
+  margin-bottom: 20px;
+}
+
+.exerciseDesc hr {
+  margin: 10px 0px;
+}
+
+.questionNumbersAndBrief {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.questionNumbersContainer {
+  width: 45%;
+  border-bottom: solid 1px #f5f5f5;
+  padding: 0px;
+  /* margin: 0px 0px 0px 20px; */
+}
+
+.details,
+.video {
+  width: 23%;
+  border-bottom: solid 1px #f5f5f5;
+  padding: 0px;
+  /* margin: 0px 20px; */
+}
+
+.video img.videoImage {
+  width: 100%;
+}
+.video img.playIcon {
+  position: relative;
+  bottom: 38%;
+  right: 38%;
+}
+
+.video video {
+  width: 100%;
+}
+
+.details p {
+  padding: 20px 0px;
+  border-top: solid 1px #cccbff;
+  border-bottom: solid 1px #cccbff;
+}
+
+.metricsAnswers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.metricsAnswer {
+  width: 100%;
+  max-width: 200px;
+  margin: 0px 20px 20px 20px;
+}
+
+.metricsAnswer button {
+  width: 100%;
+  outline: 0;
+  padding: 12px;
+  border: solid 1px #716eff;
+  border-radius: 26px;
+  background: #fff;
+  color: #716eff;
+}
+
+.metricsAnswer p {
+  height: 40px;
+  padding: 0px 3px;
+}
+
+.questionAnswers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.metricsAnswer > input {
+  height: 50px;
+}
+
+.mainWrapper input {
+  color: #0400b1;
+  border: solid 1px #0400b1;
+  padding: 12px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  outline: 0;
+  border-radius: 100px;
+  width: 100%;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: #0400b1;
+  font-weight: bold;
+}
+
+.errorModal {
+  color: #fd7172;
+}
+
+.errorModal .modal-header {
+  padding: 0 !important;
+}
+
+.errorModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fd7172;
+  color: #fff;
+  width: 100%;
+  padding: 16px 32px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.errorModalHeader .warning {
+  padding: 0px 10px;
+}
+.errorModalHeader a {
+  color: #fff;
+}
+
+.errorModalHeader > div {
+  display: flex;
+  align-items: center;
+}
+
+.errorModalAnswer .question {
+  color: #0400b1;
+  margin-bottom: 10px;
+}
+
+.errorModal .modal-footer .errorModalFooter button {
+  width: 170px;
+  position: relative;
+  bottom: -25px;
+}
+.errorModal .modal-footer .errorModalFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.errorModal .modal-footer .errorModalFooter .errorModalFooterInputs {
+  display: flex;
+}
+.errorModalFooterInputs > div {
+  margin-left: 20px;
+}
+
+.errorModal .modal-content {
+  border-radius: 30px;
+}
+
+.errorModal .modal-body {
+  padding: 32px;
+}
+
+.errorModal .modal-footer {
+  padding: 0px 32px 16px 32px;
+}
+
+@media (min-width: 1750px) {
+  .fa-check {
+    margin: 18px 0px 0px 10px !important;
+  }
+}
+
+@media (max-width: 1750px) {
+  .questionNumber {
+    margin-right: 40px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .questionNumber:last-child {
+    margin-right: 0px !important;
+  }
+
+  .questionNumber h3 {
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .questionNumber::after {
+    width: 40px !important;
+    /* top: -18.5px !important; */
+  }
+
+  #q4.questionNumber::after {
+    width: 0 !important;
+  }
+}

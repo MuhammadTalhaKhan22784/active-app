@@ -1,0 +1,52 @@
+.options {
+  position: absolute;
+  z-index: 9999999;
+}
+
+.option {
+  margin: 5px;
+  width: 170px;
+  padding: 12px;
+  border-radius: 100px;
+  background-color: #fff;
+  cursor: pointer;
+  border: solid 1px #fd7172;
+  color: #fd7172;
+}
+
+.select {
+  margin: 5px 5px 0 5px;
+  width: 170px;
+  padding: 5px 15px 5px 4px;
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fd7172;
+  color: #fff;
+}
+
+.timer {
+  text-align: center;
+}
+
+.timer h1 {
+  padding: 10px 0px;
+  background-color: #cccbff;
+  border-radius: 10px;
+}
+
+.select .selectUpDownButton {
+  border-radius: 0px;
+  background: transparent;
+  border: 0;
+  border-right: solid 1px #fff;
+  color: #fff;
+}
+
+.selectUpDownButton {
+  padding: 12px;
+  width: auto;
+  margin: 0;
+}

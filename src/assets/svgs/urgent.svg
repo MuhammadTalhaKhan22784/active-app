@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="20" viewBox="0 0 42 20">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-1625.000000, -503.000000) translate(1362.000000, 440.000000) translate(263.000000, 63.000000)">
+                    <rect width="42" height="20" fill="#FD7172" rx="10"/>
+                    <text fill="#FFF" font-family="Rubik-Medium, Rubik" font-size="13" font-weight="400" letter-spacing="-.001">
+                        <tspan x="8" y="14">דחוף</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

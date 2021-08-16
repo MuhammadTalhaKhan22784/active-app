@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+  .pa-modal .modal-header {
+    background-color: white;
+    position: relative;
+    border: none !important;
+    height: 0;
+    padding: 0;
+  }
+
+  .pa-modal .modal-body {
+    padding: 0;
+  }
+
+  .pa-modal .modal-content {
+    border-radius: 29px;
+    transform: translateY(10%);
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .pa-header {
+    position: absolute !important;
+    right: -10px;
+    top: -35px;
+  }
+
+  .modal {
+    top: -8px;
+  }
+
+  .pa-modal .wp-4 {
+    margin-top: 0rem;
+    padding: 0 20px;
+  }
+  .pa-modal strong {
+    color: #0400b1 !important;
+    font-size: 1.5rem !important;
+  }
+  .pa-modal h5 {
+    font-weight: 400;
+    margin-right: 9px;
+  }
+
+  .pa-modal img {
+    width: 44px;
+  }
+
+  .pa-modal .q2-input-box div {
+    margin-top: 10px;
+    padding: 11px 20px;
+  }
+
+  .pa-modal textarea {
+    border: none;
+    outline: none;
+    direction: rtl;
+    color: #0400b1;
+  }
+
+  .pa-modal .modal-footer {
+    border: none;
+  }
+
+  .pa-modal button {
+    width: 100%;
+  }
+}

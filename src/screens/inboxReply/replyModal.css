@@ -1,0 +1,43 @@
+.replyModal footer button div.wordIcon {
+  display: inline-block;
+  background-color: #ed3939;
+  color: #fff;
+  min-height: 16px;
+  min-width: 16px;
+  font-size: 10px;
+  line-height: 1.8;
+  border-radius: 4px;
+}
+
+.replyModal footer button div.pdfIcon {
+  display: inline-block;
+  background-color: #3973ed;
+  color: #fff;
+  min-width: 16px;
+  min-height: 16px;
+  font-size: 7px;
+  line-height: 2.5;
+  border-radius: 4px;
+}
+
+.replyModal .modal-footer footer button {
+  width: auto;
+  float: unset;
+  margin: 0px 5px;
+}
+.replyModal .modal-footer footer {
+  padding-top: 0;
+  border-top: 0;
+  color: #0400b1;
+  width: 100%;
+}
+
+.replyModal .modalHeader > div {
+  display: flex;
+  align-items: center;
+}
+
+.replyModal .modalHeader button {
+  width: 150px;
+  margin-left: 20px;
+}

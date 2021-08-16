@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .pam-try .pas-4-1a span,
+  .pam-try .pas-4-1b span,
+  .pam-try strong {
+    color: #c9c9c9 !important;
+    border-color: #c9c9c9;
+  }
+}

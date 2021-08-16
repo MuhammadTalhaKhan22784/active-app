@@ -1,0 +1,60 @@
+.inboxMessageContainer {
+  padding: 10px;
+  border-bottom: solid 1px #c9c9c9;
+}
+
+.inboxMessageContainer:first-child {
+  border-top: solid 1px #c9c9c9;
+}
+
+.inboxMessageContainer p small span {
+  float: left;
+}
+
+.messagesCount {
+  padding: 30px 10px 30px 0px;
+  border-top-right-radius: 30px;
+  background-color: #0400b1;
+  color: #fff;
+}
+.messagesCount span {
+  background-color: #cccbff;
+  color: #716eff;
+  padding: 2px 5px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.inboxMessageContainer.notRead {
+  background-color: #e8edf8;
+}
+.inboxMessageContainer.read {
+  background-color: #fff;
+}
+div.tagAndAttachIcon {
+  margin-top: 5px;
+}
+
+span.attachIcon img {
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+span.requestTag {
+  background-color: #43e4ff;
+  padding: 1px 8px;
+  border-radius: 100px;
+  color: #fff;
+}
+span.answerTag {
+  background-color: #716eff;
+  padding: 1px 8px;
+  border-radius: 100px;
+  color: #fff;
+}
+span.urgentTag {
+  background-color: #fd7172;
+  padding: 1px 8px;
+  border-radius: 100px;
+  color: #fff;
+}

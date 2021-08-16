@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  .weekly-program-stepper {
+    width: 100%;
+    height: max-content;
+    padding: 1.5rem 2rem;
+    background-color: #f5f5f5;
+  }
+
+  .wps-1 {
+    width: 100%;
+    text-align: right;
+  }
+
+  .wps-1 strong {
+    color: #0400b1;
+  }
+
+  .weekly-program-stepper .qm-1 {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .weekly-program-stepper {
+    padding: 1.5rem 1rem;
+  }
+}

@@ -1,0 +1,32 @@
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  padding: 12px;
+}
+
+button.reddish {
+  background-color: #fd7172;
+  color: #fff;
+}
+
+button.normal {
+  background-color: #fff;
+  color: #716eff;
+  border: solid 1px #716eff;
+}
+
+button.disabled {
+  background-color: #fff;
+  border: solid 1px #d8d8d8;
+  color: #d8d8d8;
+}
+
+button.gradient {
+  background: linear-gradient(109deg, #43e4ff -27%, #716eff 33%);
+  color: #fff;
+}

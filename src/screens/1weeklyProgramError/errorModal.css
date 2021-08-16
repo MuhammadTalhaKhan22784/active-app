@@ -1,0 +1,77 @@
+.errorModal {
+  color: #fd7172;
+}
+
+.errorModal .modal-header {
+  padding: 0 !important;
+}
+
+.errorModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fd7172;
+  color: #fff;
+  width: 100%;
+  padding: 16px 32px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.errorModalHeader .warning {
+  padding: 0px 10px;
+}
+.errorModalHeader a {
+  color: #fff;
+}
+
+.errorModalHeader > div {
+  display: flex;
+  align-items: center;
+}
+
+.errorModalAnswer .modalQuestion {
+  color: #0400b1;
+  margin-bottom: 10px;
+}
+
+.errorModal .modal-footer .errorModalFooter button {
+  width: 170px;
+  position: relative;
+  bottom: -25px;
+}
+.errorModal .modal-footer .errorModalFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.errorModal .modal-footer .errorModalFooter .errorModalFooterInputs {
+  display: flex;
+}
+.errorModalFooterInputs > div {
+  margin-left: 20px;
+}
+
+.errorModal .modal-content {
+  border-radius: 30px;
+}
+
+.errorModal .modal-body {
+  padding: 32px;
+}
+
+.errorModal .modal-footer {
+  padding: 0px 32px 16px 32px;
+}
+.errorModal input {
+  color: #0400b1;
+  border: solid 1px #0400b1;
+  padding: 12px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  outline: 0;
+  border-radius: 100px;
+  width: 100%;
+  font-weight: bold;
+}

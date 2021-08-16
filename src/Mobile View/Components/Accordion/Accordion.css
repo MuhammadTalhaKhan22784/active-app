@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+  .pas-accordion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    border-radius: 40px;
+    height: 55px;
+    margin: 1.5rem 0 0.6rem 0;
+  }
+
+  .pas-accordion span {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .pas-accordion div {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+    height: 100%;
+    width: 35px;
+  }
+
+  .pas-accordion-list {
+    width: 100%;
+  }
+
+  .pas-accordion-item {
+    width: 100%;
+    padding: 9px 20px;
+    border: solid 1px #fd7172;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+  }
+
+  .pas-accordion-item span,
+  .pas-accordion-item strong {
+    color: #fd7172;
+  }
+
+  .pas-accordion-item span {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+}

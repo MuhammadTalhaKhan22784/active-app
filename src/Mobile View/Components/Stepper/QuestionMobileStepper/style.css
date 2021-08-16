@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+  .qm-stepper {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .stepper-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stepper-wrapper .qm-line {
+    width: 40%;
+    height: 1.5px;
+    background-color: #b0b0b0;
+  }
+
+  .step {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 12px 20px;
+    object-fit: contain;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #b0b0b0;
+    border: solid 1.6px #b0b0b0;
+    border-radius: 100%;
+  }
+
+  .active-step-tick {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: -11px;
+    border-radius: 50%;
+    background-color: #21cec1;
+    border: solid 1.9px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .active-step-tick img {
+    width: 12px;
+  }
+
+  .qm-active-step {
+    background-color: #716eff;
+    border: none;
+    color: white;
+  }
+
+  .qm-active-line {
+    height: 1.5px;
+    background-color: #716eff !important;
+  }
+
+  .qm-finish-step {
+    border: solid 1.6px #716eff !important;
+    background-color: #cccbff !important;
+    color: #716eff !important;
+  }
+}

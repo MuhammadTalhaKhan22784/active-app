@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+  .wp-11,
+  .wp-2,
+  .wp-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px 20px;
+  }
+
+  .wp-1 {
+    display: flex;
+    padding: 10px 20px;
+    align-items: flex-end;
+  }
+
+  .wp-2 p {
+    color: #0400b1;
+    direction: rtl;
+    font-weight: 500;
+  }
+
+  .wp-11 span {
+    font-size: 1.2rem;
+    color: #0400b1;
+  }
+
+  .wp-3 p,
+  .wp-3 strong {
+    color: #fd7172;
+    direction: rtl;
+    font-size: 1rem;
+  }
+
+  .wp-4 {
+    padding: 10px 20px;
+  }
+
+  .wp-4 strong {
+    direction: rtl;
+  }
+
+  .wp-4 h5 {
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+  }
+
+  .wp-4 .qm-box-4 {
+    padding: 0;
+  }
+
+  .wp-4 .qm-box-4 div span,
+  .wp-4 h5 {
+    color: #0400b1;
+    font-weight: 500;
+    font-size: 1rem;
+    direction: rtl;
+  }
+
+  .wp-4 h5 {
+    margin-top: 10px;
+  }
+
+  .wp-4 .qm-box-4 > div:nth-child(1) {
+    border: solid 1px #0400b1;
+    padding: 10px 20px;
+    margin-top: 1rem;
+  }
+  .wp-4 .qm-box3 {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .wp-4 strong {
+    font-size: 1rem;
+  }
+}
